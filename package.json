@@ -1,0 +1,45 @@
+{
+    "name": "react.components.class",
+    "version": "0.0.1",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "jest",
+        "test:w": "jest --watch",
+        "test:coverage": "jest --coverage",
+        "transpile": "babel src -d dist --copy-files",
+        "prepublishOnly": "npm run transpile"
+    },
+    "peerDependencies": {
+        "react": "^16.3.0",
+        "react-dom": "^16.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yanqirenshi/React.Components.Class.git"
+    },
+    "author": "yanqirenshi@gmail.com",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/yanqirenshi/React.Components.Class/issues"
+    },
+    "homepage": "https://github.com/yanqirenshi/React.Components.Class#readme",
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.32",
+        "@fortawesome/free-solid-svg-icons": "^5.15.1",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "deepmerge": "^4.2.2",
+        "react": "^17.0.1",
+        "react-bulma-components": "^3.4.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/preset-env": "^7.12.11",
+        "@babel/preset-react": "^7.12.10",
+        "babel-jest": "^25.2.4",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+        "jest": "^25.2.4"
+    }
+}
