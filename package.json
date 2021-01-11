@@ -1,6 +1,6 @@
 {
     "name": "@yanqirenshi/react.components.class",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
     "main": "dist/index.js",
     "scripts": {
@@ -37,6 +37,7 @@
         "@babel/core": "^7.12.10",
         "@babel/preset-env": "^7.12.11",
         "@babel/preset-react": "^7.12.10",
+        "@babel/plugin-syntax-jsx": "^7.12.1",
         "babel-jest": "^25.2.4",
         "babel-loader": "^8.2.2",
         "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
